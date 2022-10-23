@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+
+  background-color: #fff;
+}
+
+.status {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 10px;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.name {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
