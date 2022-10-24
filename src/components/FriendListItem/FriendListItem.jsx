@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './FriendListItem.module.css';
-import { getBackColor } from '../utils/getBackColor';
+import { getBackColor } from 'utils/getBackColor';
 
 export const FriendListItem = ({ avatar, name, isOnline, id }) => {
   return (
